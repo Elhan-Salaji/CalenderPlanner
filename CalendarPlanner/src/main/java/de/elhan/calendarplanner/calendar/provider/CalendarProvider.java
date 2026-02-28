@@ -1,4 +1,8 @@
 package de.elhan.calendarplanner.calendar.provider;
 
-public class CalendarProvider {
+import de.elhan.calendarplanner.calendar.BusySlotDto;
+import java.util.List;
+
+public interface CalendarProvider {
+    List<BusySlotDto> getBusySlots();
 }

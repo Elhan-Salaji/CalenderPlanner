@@ -1,4 +1,6 @@
 package de.elhan.calendarplanner.calendar;
 
-public class BusySlotDto {
+import java.time.LocalDateTime;
+
+public record BusySlotDto(LocalDateTime startTime, LocalDateTime endTime) {
 }
